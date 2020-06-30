@@ -4,8 +4,7 @@ menu:
   归档: /archives
   分类: /categories
   标签: /tags
-  旅行: /tags/旅行/
-  摄影: http://shenyu-vip.lofter.com
+  旅行: /tags/travel/
   关于我: /2019/about
 
 # 站点次标题和打字动效
@@ -73,7 +72,7 @@ word_count:
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: "请我喝杯咖啡吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
@@ -101,11 +100,11 @@ canvas_bg: 0
 
 # 自定义鼠标样式，直接替换/images/mouse.cur文件
 mouse:
-  enable: false
+  enable: true
   path: /images/mouse.cur
 
 # 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花
-click_effect: 0
+click_effect: 2
 
 # 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度
 layout:
@@ -115,16 +114,16 @@ layout:
 # GitHub Ribbons-封面右上角的forkme，换样式直接在source/images目录下替换forkme图片
 github:
   # (关闭请设置为false)
-  enable: true
-  url: https://github.com/Shen-Yu/hexo-theme-ayer
+  enable: false
+  url: https://github.com/Duo-Huang
 
 # 网易云音乐插件
 music:
-  enable: false
+  enable: true
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
-  type: 1
+  type: 2
   id: 22707008 # 网易云分享的音乐ID(更换音乐请更改此配置项)
-  autoPlay: true # 是否开启自动播放
+  autoPlay: false # 是否开启自动播放
 
 # 访问量统计(不蒜子)
 busuanzi:
@@ -151,7 +150,7 @@ katex:
   copy_tex: false
 
 # 网站成立年份(默认为 2019，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
-since: 2015
+since: 2019
 
 # 是否显示页脚信息(建议保留)
 pageFooter: true
@@ -168,8 +167,8 @@ icp:
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
 leancloud:
   enable: true
-  app_id: #
-  app_key: #
+  app_id: chaSYi8FMdJBwzIBpxeNjqWC-gzGzoHsz
+  app_key: PqqkLYgPkHvH1BmyQqySWnSK
 # Valine配置
 valine:
   enable: true # 是否启用
@@ -224,3 +223,4 @@ minivaline:
     - https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest
     - https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest
     - https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest
+
